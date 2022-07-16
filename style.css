@@ -56,6 +56,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html{
   scroll-behavior: smooth;
 }
@@ -82,8 +83,8 @@ body {
   max-width: min(112rem,100%);
   margin: auto;
   border-radius: 1rem;
-  
 }
+
 a{
     text-decoration: none;
 }
@@ -253,14 +254,13 @@ nav .icon svg path{
   text-align: center;
   padding-block: 18rem;
   text-transform: none;
-
 }
 
 .home{
   margin: auto;
   text-align: center;
-  font-size: 1.4rem;
-  color:var(--clr-gold);
+  font-size: 1.6rem;
+  color: var(--clr-gold);
   margin-bottom: 1.6rem;
   font-weight: 700;
   line-height: 150%;
@@ -282,21 +282,27 @@ nav .icon svg path{
 
 .content h1{
   color: var(--clr-black);
-  font-size: 4rem;
-}
-
-.content h3,p{
-  font-weight: 400;
-  font-size: 1.8rem;
-  line-height: 150%;
+  font-size: 6rem;
 }
 
 .content h2{
-  margin-top: 4rem;
+  margin-top: 3rem;
+  color: var(--clr-primary-1);
+  font-size: 2rem;
+  line-height: 150%;
 }
+.content h3{
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 150%;
+  color: var(--clr-primary-1);
+}
+
+
 
 .content a{
   margin-top: 6rem;
+  
 }
 
 /* CONTACT */
